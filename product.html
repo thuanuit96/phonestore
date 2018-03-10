@@ -1,0 +1,750 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/thank_you.css">
+</head>
+
+<body class="open-popup">
+    
+    <div id="product-wrapper">
+
+      <!-- START HEADER -->
+       <div class="header">
+            <!-- START TOP NAV -->
+            <div class="navbar navbar-default product-nav product-top-nav">
+              <div class="container">
+
+                <ul class="nav navbar-nav">
+                  <li><a href=""><img src="imgs/icon-lock.png" class="img-responsive">login</a></li>
+                  <li><a href=""><img src="imgs/icon-url.png" class="img-responsive">register</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href=""><img src="imgs/icon-cart.png" class="img-responsive">(0) products</a></li>
+                </ul>
+
+              </div>
+            </div><!-- END TOP NAV -->
+
+            <!-- START MAIN NAV -->
+            <nav class="navbar navbar-default product-nav product-main-nav">
+              <div class="container">
+
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                  <ul class="nav navbar-nav">
+                    <li><a href=""><img src="imgs/icon-home.png"></a></li>
+                    <li><a href="">about us</a></li>
+                    <li><a href="" class="active">men</a></li>
+                    <li><a href="">women</a></li>
+                  </ul>
+
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="">boys</a></li>
+                    <li><a href="">girls</a></li>
+                    <li><a href="">contact us</a></li>
+                    <li><a href=""><i class="fa fa-search menu-space" aria-hidden="true"></i></a></li>
+                  </ul>
+
+                </div>
+              </div>
+
+              <div id="product-logo-lg" class="col-md-2 col-sm-2">
+                <img src="imgs/logo.png" alt="logo" class="img-responsive">
+              </div>
+            </nav><!-- END MAIN NAV -->
+
+       </div><!-- END HEADER -->
+
+
+
+      <!-- START WRAPPER -->
+       <div class="wrapper">
+
+          <!-- START CAROUSEL -->
+          <div id="carousel-product-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-product-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-product-generic" data-slide-to="1"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="imgs/banner-01.jpg" alt="banner-01">
+                <div class="carousel-caption">
+                  <h1>PRODUCT</h1>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="imgs/banner-01.jpg" alt="banner-01">
+                <div class="carousel-caption">
+                  <h1>PRODUCT 2</h1>
+                </div>
+              </div>
+            </div><!-- END CAROUSEL -->
+          </div>
+
+          <!-- START CONTENT -->
+          <div id="content">
+            <div class="container">
+              <div class="row">
+
+                <!-- START LEFT CONTENT -->
+                <div class="col-sm-3">
+
+                  <!-- START LEFT CONTENT HEADER -->
+                  <div class="product-wrapper-header-content">
+                    <span class="title">CATEGORIES</span>
+                  </div><!-- END LEFT CONTENT HEADER -->
+
+                  <!-- START LEFT CONTENT BODY -->
+                  <div id="product-left-content">
+                    <div class="panel-group" id="accordion">
+
+                      <!-- START MEN -->
+                      <div class="categories-item active">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#men">men</a>
+                            <span class="pull-right"><img src="imgs/icon-arrow-bottom.png"></span>
+                          </h4>
+                        </div>
+                        <div id="men" class="panel-collapse collapse in">
+                          <div class="panel-body">
+                            <ul>
+                              <li><a href="#">shirt</a></li>
+                              <li><a href="#">tshirt</a></li>
+                              <li><a href="#">jackets</a></li>
+                              <li><a href="#">jeans</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div><!-- END MEN -->
+                      
+                      <!-- START WOMEN -->
+                      <div class="categories-item">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#women">women</a>
+                            <span class="pull-right"><img src="imgs/icon-arrow-top.png"></span>
+                          </h4>
+                        </div>
+                        <div id="women" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <ul>
+                              <li><a href="#">shirt</a></li>
+                              <li><a href="#">tshirt</a></li>
+                              <li><a href="#">jackets</a></li>
+                              <li><a href="#">jeans</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div><!-- END WOMEN -->
+
+                      <!-- START BOY -->
+                      <div class="categories-item">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#boy">boy</a>
+                            <span class="pull-right"><img src="imgs/icon-arrow-top.png"></span>
+                          </h4>
+                        </div>
+                        <div id="boy" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <ul>
+                              <li><a href="#">shirt</a></li>
+                              <li><a href="#">tshirt</a></li>
+                              <li><a href="#">jackets</a></li>
+                              <li><a href="#">jeans</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div><!-- END BOY -->
+
+                      <!-- START GIRL -->
+                      <div class="categories-item">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#girl">girl</a>
+                            <span class="pull-right"><img src="imgs/icon-arrow-top.png"></span>
+                          </h4>
+                        </div>
+                        <div id="girl" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <ul>
+                              <li><a href="#">shirt</a></li>
+                              <li><a href="#">tshirt</a></li>
+                              <li><a href="#">jackets</a></li>
+                              <li><a href="#">jeans</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div><!-- END GIRL -->
+
+                      <!-- START ACCESSORIES -->
+                      <div class="categories-item">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#accessories">accessories</a>
+                            <span class="pull-right"><img src="imgs/icon-arrow-top.png"></span>
+                          </h4>
+                        </div>
+                        <div id="accessories" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <ul>
+                              <li><a href="#">shirt</a></li>
+                              <li><a href="#">tshirt</a></li>
+                              <li><a href="#">jackets</a></li>
+                              <li><a href="#">jeans</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div><!-- END ACCESSORIES -->
+
+                      <!-- START PRICE RANGE -->
+                      <div id="price-range">
+                          <span>PRICE RANGE</span>
+
+                          <div id="slider">
+                            <span id="total-items">556 items</span>
+                            <div id="range-slider">
+                              <span class="left"></span>
+                              <span class="middle"></span>
+                              <span class="right"></span>
+                            </div>
+                            <div class="clear"></div>
+
+                            <div id="value-display">
+                              <span class="min-value">Rs. 250</span>
+                              <span class="max-value">Rs. 450</span>
+                            </div>
+                            <div class="clear"></div>
+                          </div>
+
+                      </div><!-- END PRICE RANGE -->
+
+                      <!-- START PICK COLOR -->
+                      <div id="color">
+                          <span>COLOR</span>
+
+                          <div class="row">
+                            <div class="col-xs-3">
+                              <span class="color-square color-1"></span>
+                            </div>
+                            <div class="col-xs-3">
+                              <span class="color-square color-2"></span>
+                            </div>
+                            <div class="col-xs-3">
+                              <span class="color-square color-3"></span>
+                            </div>
+                            <div class="col-xs-3">
+                              <span class="color-square color-4"></span>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-xs-3">
+                              <span class="color-square color-5"></span>
+                            </div>
+                            <div class="col-xs-3">
+                              <span class="color-square color-6"></span>
+                            </div>
+                            <div class="col-xs-3">
+                              <span class="color-square color-7"></span>
+                            </div>
+                            <div class="col-xs-3">
+                              <span class="color-square color-8"></span>
+                            </div>
+                          </div>
+                      </div><!-- END PICK COLOR -->
+
+                    </div> 
+                  </div>
+
+                </div><!-- END LEFT CONTENT -->
+
+                <!-- START RIGHT CONTENT -->
+                <div class="col-sm-9">
+
+                  <!-- START RIGHT CONTENT HEADER -->
+                  <div class="product-wrapper-header-content">
+                    <div class="row">
+
+                      <div class="col-sm-4">
+                        <span class="title">Showing 9 of 56 Results</span>
+                      </div>
+
+                      <div class="col-sm-8">
+
+                        <div class="form-group">
+                          <label class="sr-only" for="search">Search Product</label>
+                          <div class="input-group product-search-group">
+                            <input type="text" class="form-control" id="search" placeholder="Search Product">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>            
+                  </div><!-- END RIGHT CONTENT HEADER -->
+
+                  <!-- START RIGHT CONTENT BODY -->
+                  <div id="product-right-content">
+
+                    <!-- START PRODUCT LIST -->
+                    <div class="row">
+
+                      <!-- START PRODUCT -->
+                      <div class="col-sm-4">
+                        <div class="product-item">
+                          <div class="product-item-content">
+
+                            <div class="product-item-img">
+                              <img src="imgs/product-item.jpg" class="img-responsive">   
+                            </div>
+
+                            <div class="product-item-rating">
+                              <span class="glyphicon glyphicon-star"></span>
+                              <span class="glyphicon glyphicon-star"></span>
+                              <span class="glyphicon glyphicon-star"></span>
+                              <span class="glyphicon glyphicon-star"></span>
+                              <span class="glyphicon glyphicon-star"></span>
+                            </div>
+
+                            <div class="product-item-pirce">
+                              <h3>check shirt</h3>
+                              <span>$30.00</span>
+                            </div>
+
+                          </div>
+
+                          <div class="product-item-hover">
+                            <div class="product-item-hover-content">
+                              <div class="product-item-pirce">
+                                <h3>check shirt</h3>
+                                <span>$30.00</span>
+                              </div>
+                              <a href="#" class="btn btn-default">Add to Cart</a>
+                            </div>
+                          </div>
+
+                          <span class="glyphicon glyphicon-heart product-item-like"></span>
+                        </div>
+                      </div><!-- END PRODUCT -->
+
+                      <!-- START PRODUCT -->
+<div class="col-sm-4">
+  <div class="product-item">
+    <div class="product-item-content">
+
+      <div class="product-item-img">
+        <img src="imgs/product-item-2.jpg" class="img-responsive">   
+      </div>
+
+      <div class="product-item-rating">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </div>
+
+      <div class="product-item-pirce">
+        <h3>check shirt</h3>
+        <span>$30.00</span>
+      </div>
+
+    </div>
+
+    <div class="product-item-hover">
+      <div class="product-item-hover-content">
+        <div class="product-item-pirce">
+          <h3>check shirt</h3>
+          <span>$30.00</span>
+        </div>
+        <a href="#" class="btn btn-default">Add to Cart</a>
+      </div>
+    </div>
+
+    <span class="glyphicon glyphicon-heart product-item-like"></span>
+  </div>
+</div><!-- END PRODUCT -->
+
+<!-- START PRODUCT -->
+<div class="col-sm-4">
+  <div class="product-item">
+    <div class="product-item-content">
+
+      <div class="product-item-img">
+        <img src="imgs/product-item-3.jpg" class="img-responsive">   
+      </div>
+
+      <div class="product-item-rating">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </div>
+
+      <div class="product-item-pirce">
+        <h3>check shirt</h3>
+        <span>$30.00</span>
+      </div>
+
+    </div>
+
+    <div class="product-item-hover">
+      <div class="product-item-hover-content">
+        <div class="product-item-pirce">
+          <h3>check shirt</h3>
+          <span>$30.00</span>
+        </div>
+        <a href="#" class="btn btn-default">Add to Cart</a>
+      </div>
+    </div>
+
+    <span class="glyphicon glyphicon-heart product-item-like"></span>
+  </div>
+</div><!-- END PRODUCT -->
+
+<!-- START PRODUCT -->
+<div class="col-sm-4">
+  <div class="product-item">
+    <div class="product-item-content">
+
+      <div class="product-item-img">
+        <img src="imgs/product-item-4.jpg" class="img-responsive">   
+      </div>
+
+      <div class="product-item-rating">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </div>
+
+      <div class="product-item-pirce">
+        <h3>check shirt</h3>
+        <span>$30.00</span>
+      </div>
+
+    </div>
+
+    <div class="product-item-hover">
+      <div class="product-item-hover-content">
+        <div class="product-item-pirce">
+          <h3>check shirt</h3>
+          <span>$30.00</span>
+        </div>
+        <a href="#" class="btn btn-default">Add to Cart</a>
+      </div>
+    </div>
+
+    <span class="glyphicon glyphicon-heart product-item-like"></span>
+  </div>
+</div><!-- END PRODUCT -->
+
+<!-- START PRODUCT -->
+<div class="col-sm-4">
+  <div class="product-item">
+    <div class="product-item-content">
+
+      <div class="product-item-img">
+        <img src="imgs/product-item-5.jpg" class="img-responsive">   
+      </div>
+
+      <div class="product-item-rating">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </div>
+
+      <div class="product-item-pirce">
+        <h3>check shirt</h3>
+        <span>$30.00</span>
+      </div>
+
+    </div>
+
+    <div class="product-item-hover">
+      <div class="product-item-hover-content">
+        <div class="product-item-pirce">
+          <h3>check shirt</h3>
+          <span>$30.00</span>
+        </div>
+        <a href="#" class="btn btn-default">Add to Cart</a>
+      </div>
+    </div>
+
+    <span class="glyphicon glyphicon-heart product-item-like"></span>
+  </div>
+</div><!-- END PRODUCT -->
+
+<!-- START PRODUCT -->
+<div class="col-sm-4">
+  <div class="product-item">
+    <div class="product-item-content">
+
+      <div class="product-item-img">
+        <img src="imgs/product-item-6.jpg" class="img-responsive">   
+      </div>
+
+      <div class="product-item-rating">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </div>
+
+      <div class="product-item-pirce">
+        <h3>check shirt</h3>
+        <span>$30.00</span>
+      </div>
+
+    </div>
+
+    <div class="product-item-hover">
+      <div class="product-item-hover-content">
+        <div class="product-item-pirce">
+          <h3>check shirt</h3>
+          <span>$30.00</span>
+        </div>
+        <a href="#" class="btn btn-default">Add to Cart</a>
+      </div>
+    </div>
+
+    <span class="glyphicon glyphicon-heart product-item-like"></span>
+  </div>
+</div><!-- END PRODUCT -->
+
+<!-- START PRODUCT -->
+<div class="col-sm-4">
+  <div class="product-item">
+    <div class="product-item-content">
+
+      <div class="product-item-img">
+        <img src="imgs/product-item-7.jpg" class="img-responsive">   
+      </div>
+
+      <div class="product-item-rating">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </div>
+
+      <div class="product-item-pirce">
+        <h3>check shirt</h3>
+        <span>$30.00</span>
+      </div>
+
+    </div>
+
+    <div class="product-item-hover">
+      <div class="product-item-hover-content">
+        <div class="product-item-pirce">
+          <h3>check shirt</h3>
+          <span>$30.00</span>
+        </div>
+        <a href="#" class="btn btn-default">Add to Cart</a>
+      </div>
+    </div>
+
+    <span class="glyphicon glyphicon-heart product-item-like"></span>
+  </div>
+</div><!-- END PRODUCT -->
+
+<!-- START PRODUCT -->
+<div class="col-sm-4">
+  <div class="product-item">
+    <div class="product-item-content">
+
+      <div class="product-item-img">
+        <img src="imgs/product-item-8.jpg" class="img-responsive">   
+      </div>
+
+      <div class="product-item-rating">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </div>
+
+      <div class="product-item-pirce">
+        <h3>check shirt</h3>
+        <span>$30.00</span>
+      </div>
+
+    </div>
+
+    <div class="product-item-hover">
+      <div class="product-item-hover-content">
+        <div class="product-item-pirce">
+          <h3>check shirt</h3>
+          <span>$30.00</span>
+        </div>
+        <a href="#" class="btn btn-default">Add to Cart</a>
+      </div>
+    </div>
+
+    <span class="glyphicon glyphicon-heart product-item-like"></span>
+  </div>
+</div><!-- END PRODUCT -->
+
+<!-- START PRODUCT -->
+<div class="col-sm-4">
+  <div class="product-item">
+    <div class="product-item-content">
+
+      <div class="product-item-img">
+        <img src="imgs/product-item-9.jpg" class="img-responsive">   
+      </div>
+
+      <div class="product-item-rating">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </div>
+
+      <div class="product-item-pirce">
+        <h3>check shirt</h3>
+        <span>$30.00</span>
+      </div>
+
+    </div>
+
+    <div class="product-item-hover">
+      <div class="product-item-hover-content">
+        <div class="product-item-pirce">
+          <h3>check shirt</h3>
+          <span>$30.00</span>
+        </div>
+        <a href="#" class="btn btn-default">Add to Cart</a>
+      </div>
+    </div>
+    
+    <span class="glyphicon glyphicon-heart product-item-like"></span>
+  </div>
+</div><!-- END PRODUCT -->
+                    </div><!-- END PRODUCT LIST -->
+
+                    <!-- START PAGINATION -->
+                    <div id="pagination">
+                      <ul class="pagination">
+                        <li class="active disabled"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li>
+                          <a href="#" aria-label="Next">NEXT</a>
+                        </li>
+                      </ul>
+                    </div>    
+                  </div>
+
+                </div><!-- END RIGHT CONTENT -->
+
+              </div>
+            </div>
+
+        </div><!-- END CONTENT -->
+
+       </div><!-- END WRAPPER -->
+
+
+       <!-- START FOOTER -->
+       <footer class="footer">
+          <div class="product-footer-top">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-3">
+                  <span class="product-footer-element-title">quick links</span>
+                  <ul>
+                    <li><a href="#"><img src="imgs/icon-arrow.png"> home</a></li>
+                    <li><a href="#"><img src="imgs/icon-arrow.png"> about us</a></li>
+                    <li><a href="#"><img src="imgs/icon-arrow.png"> men</a></li>
+                    <li><a href="#"><img src="imgs/icon-arrow.png"> women</a></li>
+                    <li><a href="#"><img src="imgs/icon-arrow.png"> product</a></li>
+                    <li><a href="#"><img src="imgs/icon-arrow.png"> categories</a></li>
+                    <li><a href="#"><img src="imgs/icon-arrow.png"> contact us</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-sm-3">
+                  <span class="product-footer-element-title">informations</span>
+                  <ul>
+                    <li><a href="#"><img src="imgs/icon-arrow.png"> faq</a></li>
+                    <li><a href="#"><img src="imgs/icon-arrow.png"> return policy</a></li>
+                    <li><a href="#"><img src="imgs/icon-arrow.png"> money back</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-sm-3">
+                  <span class="product-footer-element-title">contact us</span>
+                  <ul>
+                    <li><a href="#"><span class="product-footer-icon"><img src="imgs/icon-location.png"></span>Deer Park, NY5455544</a></li>
+                    <li><a href="#"><span class="product-footer-icon"><img src="imgs/icon-phone.png"></span>180-000-000</a></li>
+                    <li><a href="#"><span class="product-footer-icon"><img src="imgs/icon-print.png"></span>180-000-000</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-sm-3">
+                  <span class="product-footer-element-title">follow us</span>
+                  <ul>
+                    <li><a href="#">Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</a></li>
+                    <li>
+                      <a href="#"><span class="product-footer-icon"><img src="imgs/icon-facebook.png"></span></a>
+                      <a href="#"><span class="product-footer-icon"><img src="imgs/icon-googleplus.png"></span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-footer-bottom">
+            <span>&copy; Hophman All Rights Reserved.</span>
+          </div>
+       </footer><!-- END FOOTER -->
+
+    </div>
+</body>
+</html>
